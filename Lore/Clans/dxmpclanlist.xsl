@@ -38,7 +38,6 @@
 		  <xsl:sort select="MEMBERS"/>
 		  <xsl:sort select="NEWS"/>
 		  <xsl:sort select="DESCRIPTION"/>
-			<xsl:if test="MEMBERS_COUNT 	&gt; 1">
 			<tr>
 			  <td><xsl:value-of select="TAGS"/></td>
 			  <td><xsl:value-of select="EXPERIENCE"/></td>
@@ -55,7 +54,6 @@
 			  <td><xsl:value-of select="NEWS"/></td>
 			  <td><xsl:value-of select="DESCRIPTION"/></td>
 			</tr>
-			</xsl:if>
 		  </xsl:for-each>
 		</table>
   </body>
